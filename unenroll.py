@@ -1,14 +1,12 @@
 #add your Credentials, Number of courses you want to delete and Selenium Chrome Driver path here
 emailId = "Enter your email id here"
 password = "Enter your password here"
-nCourses = 5
+nCourses = 5 #Enter number of courses you want to unenroll from 
 driverPath = 'Path to your selenium chrome driver'
 
 #importing libraries
 import time
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
