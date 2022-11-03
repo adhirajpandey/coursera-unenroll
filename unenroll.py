@@ -53,7 +53,7 @@ def removePopup():
 
 #DRIVER CODE
 
-#visit login page
+#visit login page 
 driver.get('https://www.coursera.org/?authMode=login')
 
 #login
@@ -62,12 +62,12 @@ login()
 #default sleep time is 10 sec because of captcha intervention(solve manually if popup)
 time.sleep(10)
 
-#visit enrolled courses page
+#visit enrolled courses page 
 driver.get('https://www.coursera.org/in-progress')
 
 time.sleep(3)
 
-#scroll down for proper execution
+#scroll down for proper execution of code
 driver.execute_script("window.scrollTo(0, 300)")
 
 time.sleep(3)
